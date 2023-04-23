@@ -70,6 +70,7 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+    border-radius: 8px;
 }
 
 .avaliacao {
@@ -79,6 +80,10 @@
 
 .botoes__ancora:active {
     background-color: var(--azul);
+}
+
+.descricao__imagem {
+    border-radius: 8px;
 }
 
 @media screen and (min-width: 1024px) {
