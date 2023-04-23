@@ -29,16 +29,6 @@
     font-weight: 700;
 }
 
-.topicos__link:hover {
-    color: var(--laranja);
-    background-color: var(--branco);
-}
-
-.topicos__item:hover {
-    transform: scale(1.1);
-    transition: all 0.3s;
-}
-
 @media screen and (min-width: 1024px) {
     .topicos__titulo {
         font-size: 24px;
@@ -46,6 +36,16 @@
 
     .topicos__link {
         font-size: 24px;
+    }
+
+    .topicos__link:hover {
+        color: var(--laranja);
+        background-color: var(--branco);
+    }
+    
+    .topicos__item:hover {
+        transform: scale(1.1);
+        transition: all 0.3s;
     }
 }
 
